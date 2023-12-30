@@ -1,0 +1,109 @@
+
+:root{
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+.initpage-main{
+    height: 100%;
+    padding: 1rem 9% 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.initpage-title p{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--bg-color);
+}
+
+.initpage-subtitle-animate h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: .7px var(--main-color);
+}
+
+.initpage-phrase p{
+    font-size: 1.2rem;
+    margin: 2rem 0 4rem;
+    color: var(--second-bg-color);
+}
+
+.initpage-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.initpage-buttons div{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    height: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+
+.btn-icon-inipage-a{
+    background: var(--main-color);
+        border: .2rem solid var(--main-color);
+        border-radius: .8rem;
+        color: var(--bg-color);
+}
+
+.btn-icon-inipage-b {
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: .8rem;
+    color: var(--bg-color);
+}
+
+.btn-icon-inipage-a p, .btn-icon-inipage-b p{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+
+.btn-icon-inipage-a:hover{
+    background: #0196C1;
+        border: .2rem solid var(--main-color);
+        border-radius: .8rem;
+        color: white;
+}
+
+.btn-icon-inipage-b:hover {
+    background: #CBEDEE;
+        border: .2rem solid var(--main-color);
+        border-radius: .8rem;
+        color: var(--bg-color);
+}
+
+@media screen and (max-width: 550px) {
+    .initpage-buttons{
+        display: inline;
+    }
+
+    .btn-icon-inipage-a, .btn-icon-inipage-b{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+        .initpage-buttons div {
+            justify-content: center;
+            align-items: center;
+            width: 16rem;
+            height: 100%;
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: .1rem;
+        }
+}

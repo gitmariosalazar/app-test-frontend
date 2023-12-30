@@ -1,0 +1,124 @@
+:root {
+    --lime-green: hsl(163, 72%, 41%);
+    --bright-red: hsl(356, 69%, 56%);
+    --facebook: #168ef4;
+    --twitter: hsl(203, 89%, 53%);
+    --instagram-1: hsl(37, 97%, 70%);
+    --instagram-2: hsl(329, 70%, 58%);
+    --youTube: hsl(348, 97%, 39%);
+    --pinterest: red;
+    --telegram: #229ed9;
+    --gray: #5f616d;
+    --cardGray: #f0f3fa;
+    --lightGray: #f8f9fe;
+    --cardTitle: #6f717e;
+    --baseBackground: white;
+    --baseColor: #1d2029;
+    --switchSpinner: white;
+    --switch: #5f616d;
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --third-bg-color: #1139428e;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+.color-i{
+    color: var(--instagram-2);
+}
+
+.color-f{
+    color: var(--facebook);
+}
+
+.color-w{
+    color: green;
+}
+
+.color-n{
+    color: var(--second-bg-color);
+}
+
+.color-t{
+    color: var(--telegram);
+}
+
+.footer-page {
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.255);
+    border-radius: 3px;
+    bottom: 0;
+    margin-top: auto;
+}
+
+.footer-page .group-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 10px 0px;
+}
+
+.footer-page .group-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-page .group-1 .box figure img {
+    width: 150px;
+}
+
+.footer-page .group-1 .box h2 {
+    color: #0a1a2a;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footer-page .group-1 .box p {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.footer-page .group-1 .social-network a {
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+    height: 35px;
+    line-height: 45px;
+    color: #0a1a2a;
+    margin-right: 10px;
+    margin: 0 auto;
+    transition: all 300ms ease;
+    font-style: normal;
+}
+
+.footer-page .group-1 .social-network a:hover {
+    color: magenta;
+}
+
+.footer-page .group-2 {
+    padding: 15px 10px;
+    text-align: center;
+    color: #0a1a2a;
+}
+
+.footer-page .group-2 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .footer-page .group-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    .footer-page .group-1 .box figure img {
+        width: 100px;
+    }
+}

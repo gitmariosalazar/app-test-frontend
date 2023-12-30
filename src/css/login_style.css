@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+.login-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-login {
+  width: 100%;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.main {
+  border-radius: 13px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  margin: 10px;
+  height: 100%;
+}
+
+.container-login {
+  width: 350px;
+}
+
+.input-login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-log {
+  margin-top: 8px;
+  width: 45px;
+  height: 52px;
+}
+
+.icon-log span {
+  margin-top: 9px;
+  font-size: 2.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.input-log {
+  width: 100%;
+}
+
+.rem {
+  margin-top: 10px;
+  width: 100%;
+  justify-content: center;
+  font-size: 5rem;
+}
+
+.rem:hover {
+  color: blue;
+}
+
+.forgot-pwd {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.link-forgot {
+  height: 30px;
+}
+
+.f {
+  color: red;
+}
+
+.f:hover {
+  color: red;
+}
+
+.login-lefth {
+  background: gray;
+}
+
+@media screen and (max-width: 1000px) {
+  .login-main {
+    display: block;
+  }
+}
